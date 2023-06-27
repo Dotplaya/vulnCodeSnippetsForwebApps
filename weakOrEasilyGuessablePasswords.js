@@ -58,3 +58,9 @@ if (isPasswordStrong) {
 } else {
   console.log('Password is weak. Please choose a stronger password.');
 }
+
+
+// In this code snippet, we use the password-validator library to create a password schema that enforces specific
+//  requirements such as minimum and maximum length, the inclusion of uppercase and lowercase letters, digits, and
+//   no spaces. The validatePassword function takes a password as input and uses the schema to validate if it meets
+//    the defined requirements.
